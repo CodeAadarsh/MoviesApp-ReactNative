@@ -1,30 +1,37 @@
 {
   "expo": {
-    "name": "deliveroo-clone",
-    "slug": "deliveroo-clone",
+    "name": "noMovies",
+    "slug": "noMovies",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/android/mipmap-xxhdpi/icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#22092C"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.Aadarsh.noMovies"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/android/mipmap-xxhdpi/icon.png",
+        "backgroundColor": "#22092C"
+      },
+      "package": "com.Aadarsh.noMovies"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/android/mipmap-xxhdpi/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "61d1e0c6-ee7f-49a6-b821-b87169744630"
+      }
     }
   }
 }
